@@ -25,7 +25,7 @@ const Navbar = () => {
                             <li className='hover:bg-primary hover:text-white'><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">Seo Guru</a>
+                    <a class="normal-case text-xl" href='#'>Seo Guru</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
@@ -35,7 +35,7 @@ const Navbar = () => {
                                 Services
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                             </a>
-                            <ul style={{ borderRadius: '0px' }} class="p-2 bg-[#0091ff42] p-0">
+                            <ul style={{ borderRadius: '0px' }} class="p-2 bg-white p-0">
                                 <li className='hover:bg-primary text-primary hover:text-white'><a>Submenu 1</a></li>
                                 <li className='hover:bg-primary text-primary hover:text-white'><a>Submenu 2</a></li>
                             </ul>
