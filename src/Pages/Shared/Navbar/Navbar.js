@@ -16,9 +16,6 @@ const Navbar = () => {
                                 Services
                                     <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </a>
-                                {/* left: 0;
-    top: 42px;
-    z-index: 99; */}
                                 <ul className="p-2 bg-slate-200 z-[99] shadow bg-white text-neutral left-0 top-[42px] rounded-none">
                                     <li className='hover:bg-primary hover:text-white text-'><a>Submenu 1</a></li>
                                     <li className='hover:bg-primary hover:text-white'><a>Submenu 2</a></li>
