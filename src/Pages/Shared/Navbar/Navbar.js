@@ -17,12 +17,13 @@ const Navbar = () => {
                                 Services
                                     <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </Link>
-                                <ul className="p-2 bg-slate-200 z-[99] shadow bg-white text-neutral left-0 top-[42px] rounded-none">
+                                <ul className="p-2  z-[99] shadow bg-white text-neutral left-0 top-[42px] rounded-none">
                                     <li className='hover:bg-primary hover:text-white text-'><Link to="/">Submenu 1</Link></li>
                                     <li className='hover:bg-primary hover:text-white'><Link to="/">Submenu 2</Link></li>
                                 </ul>
                             </li>
                             <li className='hover:bg-primary hover:text-white'><Link to="/">Link Building</Link></li>
+                            <li className='hover:bg-primary hover:text-white'><Link to="/about">About</Link></li>
                             <li className='hover:bg-primary hover:text-white'><Link to="/">Contact</Link></li>
                         </ul>
                     </div>
@@ -42,6 +43,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className='hover:bg-primary hover:text-white'><Link to="/">Link Building</Link></li>
+                        <li className='hover:bg-primary hover:text-white'><Link to="/about">About</Link></li>
                         <li className='hover:bg-primary hover:text-white'><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>

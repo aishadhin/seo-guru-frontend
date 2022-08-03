@@ -11,9 +11,9 @@ const Contact = () => {
             <div className='py-14 px-12 bg-accent'>
                 <div className='lg:w-[50%] p-3 bg-red-100 mx-auto rounded'>
                     <form className=' mx-auto' action="">
-                        <input type="text" placeholder="Name" class="input my-1 border border-[#00a2ff25] input-bordered w-full" />
-                        <input type="email" placeholder="Email" class="input my-1 border border-[#00a2ff25] input-bordered w-full" />
-                        <textarea rows="4" class="textarea textarea-bordered w-full border border-[#00a2ff25] my-1" placeholder="Your Message"></textarea>
+                        <input type="text" placeholder="Name" class="input text-neutral my-1 border border-[#00a2ff25] input-bordered w-full" />
+                        <input type="email" placeholder="Email" class="input my-1 text-neutral border border-[#00a2ff25] input-bordered w-full" />
+                        <textarea rows="4" class="textarea textarea-bordered text-neutral w-full border border-[#00a2ff25] my-1" placeholder="Your Message"></textarea>
                         <input className='btn btn-primary w-full rounded-sm' type="submit" value="Send" />
                     </form>
                 </div>
