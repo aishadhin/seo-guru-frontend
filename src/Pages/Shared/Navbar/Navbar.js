@@ -13,8 +13,8 @@ const Navbar = () => {
                         <ul tabindex="0" class="menu right-[-9%] rounded-none menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li className='hover:bg-primary hover:text-white'><Link to="/">Home</Link></li>
                             <li className='hover:bg-primary hover:text-white' tabindex="0">
-                                <Link to="/" class="justify-between">
-                                Services
+                                <Link to="#" class="justify-between">
+                                    Services
                                     <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </Link>
                                 <ul className="p-2  z-[99] shadow bg-white text-neutral left-0 top-[42px] rounded-none">
@@ -22,9 +22,9 @@ const Navbar = () => {
                                     <li className='hover:bg-primary hover:text-white'><Link to="/">Submenu 2</Link></li>
                                 </ul>
                             </li>
-                            <li className='hover:bg-primary hover:text-white'><Link to="/">Link Building</Link></li>
+                            <li className='hover:bg-primary hover:text-white'><Link to="/linkbuilding">Link Building</Link></li>
                             <li className='hover:bg-primary hover:text-white'><Link to="/about">About</Link></li>
-                            <li className='hover:bg-primary hover:text-white'><Link to="/">Contact</Link></li>
+                            <li className='hover:bg-primary hover:text-white'><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     <a class="normal-case text-xl" href='#'>Seo Guru</a>
@@ -33,16 +33,16 @@ const Navbar = () => {
                     <ul class="menu menu-horizontal p-0">
                         <li className='hover:bg-primary hover:text-white'><Link to="/">Home</Link></li>
                         <li className='hover:bg-primary hover:text-white' tabindex="0">
-                            <Link to="/">
+                            <Link to="#" class="justify-between">
                                 Services
-                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                             </Link>
-                            <ul style={{ borderRadius: '0px' }} class="p-2 bg-white p-0">
+                            <ul style={{ borderRadius: '0px' }} class="p-2 bg-white">
                                 <li className='hover:bg-primary text-primary hover:text-white'><Link to="/">Submenu 1</Link></li>
                                 <li className='hover:bg-primary text-primary hover:text-white'><Link to="/">Submenu 2</Link></li>
                             </ul>
                         </li>
-                        <li className='hover:bg-primary hover:text-white'><Link to="/">Link Building</Link></li>
+                        <li className='hover:bg-primary hover:text-white'><Link to="/linkbuilding">Link Building</Link></li>
                         <li className='hover:bg-primary hover:text-white'><Link to="/about">About</Link></li>
                         <li className='hover:bg-primary hover:text-white'><Link to="/contact">Contact</Link></li>
                     </ul>

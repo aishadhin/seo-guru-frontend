@@ -3,6 +3,7 @@ import './App.css';
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
+import LInkBuilding from "./Pages/LinkBuilding/LInkBuilding";
 import Footer from "./Pages/Shared/Navbar/Footer";
 import Navbar from './Pages/Shared/Navbar/Navbar';
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
+        <Route path="linkbuilding" element={<LInkBuilding />} />
       </Routes>
       <Footer></Footer>
     </div>
