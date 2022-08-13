@@ -5,7 +5,7 @@ const LInkBuilding = () => {
     return (
         <div>
             <h2 className='text-center bg-primary py-14 text-5xl text-white font-bold'>Link Building</h2>
-            <div className='container mx-auto p-16 lg:px-0 px-5 lg:grid grid-cols-3 gap-4'>
+            <div className='container mx-auto py-16 lg:px-32 px-5 lg:grid grid-cols-3 gap-14'>
                 <div class="card mt-5 lg:mt-0 border-2 border-blue-100 shadow-sm bg-base-100 rounded-sm">
                     <figure class="px-10 pt-10">
                         <img src={location2} alt="Shoes" class="w-12" />
